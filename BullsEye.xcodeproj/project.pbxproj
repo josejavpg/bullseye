@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3112B1172205FE9F0038320F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112B1162205FE9F0038320F /* AboutViewController.swift */; };
+		3112B119220603F60038320F /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 3112B118220603F60038320F /* BullsEye.html */; };
 		AE406BB92201F67800FA0E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE406BB82201F67800FA0E0A /* AppDelegate.swift */; };
 		AE406BBB2201F67800FA0E0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE406BBA2201F67800FA0E0A /* ViewController.swift */; };
 		AE406BBE2201F67800FA0E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE406BBC2201F67800FA0E0A /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3112B1162205FE9F0038320F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3112B118220603F60038320F /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../iosbook1/getting-started/Resources/BullsEye.html"; sourceTree = "<group>"; };
 		AE406BB52201F67800FA0E0A /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE406BB82201F67800FA0E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE406BBA2201F67800FA0E0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +58,14 @@
 		AE406BB72201F67800FA0E0A /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				3112B118220603F60038320F /* BullsEye.html */,
 				AE406BB82201F67800FA0E0A /* AppDelegate.swift */,
 				AE406BBA2201F67800FA0E0A /* ViewController.swift */,
 				AE406BBC2201F67800FA0E0A /* Main.storyboard */,
 				AE406BBF2201F67A00FA0E0A /* Assets.xcassets */,
 				AE406BC12201F67A00FA0E0A /* LaunchScreen.storyboard */,
 				AE406BC42201F67A00FA0E0A /* Info.plist */,
+				3112B1162205FE9F0038320F /* AboutViewController.swift */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE406BC32201F67A00FA0E0A /* LaunchScreen.storyboard in Resources */,
+				3112B119220603F60038320F /* BullsEye.html in Resources */,
 				AE406BC02201F67A00FA0E0A /* Assets.xcassets in Resources */,
 				AE406BBE2201F67800FA0E0A /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3112B1172205FE9F0038320F /* AboutViewController.swift in Sources */,
 				AE406BBB2201F67800FA0E0A /* ViewController.swift in Sources */,
 				AE406BB92201F67800FA0E0A /* AppDelegate.swift in Sources */,
 			);
@@ -283,13 +291,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 852B3P5PLG;
+				DEVELOPMENT_TEAM = W3Z34WKGW8;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.josepabon.BullsEye;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josejpabon.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,13 +309,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 852B3P5PLG;
+				DEVELOPMENT_TEAM = W3Z34WKGW8;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.josepabon.BullsEye;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josejpabon.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
